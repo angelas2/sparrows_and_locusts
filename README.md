@@ -11,8 +11,8 @@ G(t): grain biomass
 E_h, E_f: human effort (sparrow hunting) and farm effort (grain production), respectively
 
 ## The Mathematical Equations:
-$dS/dt = a_1SL + a_2SG - a_3G - a_4E_hS$
-$dL/dt = h(L)L - b_4L - b_5SL$ where $h(L)$
+$dS/dt = a_1SL + a_2SG - a_3G - a_4E_hS$ \\
+$dL/dt = h(L)L - b_4L - b_5SL$ where $h(L)$ \\
 \begin{cases}
   b_1 \text{L < b_3} \\
   b_2 \text{L \geq b_3}
