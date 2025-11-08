@@ -1,4 +1,4 @@
-# sparrows_and_locusts
+# Sparrows and Locusts
 
 ## Questions we want to address
 1. Can we model the locust population explosion?
@@ -16,14 +16,11 @@
 $\frac{dS}{dt} = a_1 S L + a_2 S G - a_3 G - a_4 E_h S$
 
 ### Locusts
-$\frac{dL}{dt} = h(L)\,L - b_4 L - b_5 S L$
+$\frac{dL}{dt} = h(L)L - b_4 L - b_5 S L$
 
-with a piecewise growth function  
-$h(L) = 
-\begin{cases}
-b_1, & L < b_3 \\
-b_2, & L \ge b_3
-\end{cases}$
+with a piecewise growth function $h(L) =$
+- $b_1, \text{ if } L < b_3$  
+- $b_2, \text{ if } L \geq b_3$
 
 ### Grain
 $\frac{dG}{dt} = c_1 E_f - c_2 G S - c_3 G L$
