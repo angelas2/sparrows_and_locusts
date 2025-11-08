@@ -5,18 +5,25 @@
 2. Can killing sparrows actually increase the grain you end up with?
 
 ## Variables
-S(t): sparrow population
-L(t): locust population
-G(t): grain biomass
-E_h, E_f: human effort (sparrow hunting) and farm effort (grain production), respectively
+- **S(t):** sparrow population  
+- **L(t):** locust population  
+- **G(t):** grain amount   
+- **$E_h, E_f$:** human effort (sparrow hunting) and farm effort (grain production)
 
-## The Mathematical Equations:
-$dS/dt = a_1SL + a_2SG - a_3G - a_4E_hS$ \\
-$dL/dt = h(L)L - b_4L - b_5SL$ where $h(L)$ \\
+## The Mathematical Equations
+
+### Sparrows
+$\frac{dS}{dt} = a_1 S L + a_2 S G - a_3 G - a_4 E_h S$
+
+### Locusts
+$\frac{dL}{dt} = h(L)\,L - b_4 L - b_5 S L$
+
+with a piecewise growth function  
+$h(L) = 
 \begin{cases}
-  b_1 \text{L < b_3} \\
-  b_2 \text{L \geq b_3}
-\end{cases}
-$dG/dt = c_1E_f - c_2GS - c_3GL$
+b_1, & L < b_3 \\
+b_2, & L \ge b_3
+\end{cases}$
 
-
+### Grain
+$\frac{dG}{dt} = c_1 E_f - c_2 G S - c_3 G L$
