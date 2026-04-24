@@ -1,0 +1,11 @@
+{
+  "checkpoint": "/home/eochis/code/research/GOOD1_nonfixed_death_rates_Bayesian_bundle/checkpoint.json",
+  "eps_log10": 0.018,
+  "tornado_year_index": 7,
+  "outputs": [
+    "/home/eochis/code/research/GOOD1_nonfixed_death_rates_Bayesian_bundle/sensitivity_grain_dG_dlog10p.csv",
+    "/home/eochis/code/research/GOOD1_nonfixed_death_rates_Bayesian_bundle/sensitivity_grain_elasticity.csv",
+    "/home/eochis/code/research/GOOD1_nonfixed_death_rates_Bayesian_bundle/sensitivity_grain_heatmap.png",
+    "/home/eochis/code/research/GOOD1_nonfixed_death_rates_Bayesian_bundle/sensitivity_grain_tornado.png"
+  ]
+}

@@ -82,3 +82,5 @@ using `famine_model.pre_shock_data[0]` and `famine_model.positive_rice_productio
 ## Bayesian UQ
 
 See **`bayesian_uq_mcmc.py`**: \(16\times \log_{10}\) parameters (including **\(a_3,b_4\)**) + \(\log_{10}\sigma\); Gaussian priors centered on checkpoint `params_log`; Gaussian likelihood on normalized annual grain; `emcee` ensemble MCMC; **`mcmc_uq_traces.png`** = trace for **all** continuous unknowns; corner subset on \(a_3,b_4,\sigma\); PPC grain (`mcmc_uq_*`).
+
+**Grain sensitivity (local):** run **`sensitivity_grain.py`**. Central differences on \(\log_{10} p_j\) give \(J_{k,j} \approx \partial G(k)/\partial(\log_{10} p_j)\); CSVs `sensitivity_grain_dG_dlog10p.csv`, `sensitivity_grain_elasticity.csv`; figures `sensitivity_grain_heatmap.png` (relative \(|J|\) by year), `sensitivity_grain_tornado.png` (|elasticity| at \(k=7\) by default).
