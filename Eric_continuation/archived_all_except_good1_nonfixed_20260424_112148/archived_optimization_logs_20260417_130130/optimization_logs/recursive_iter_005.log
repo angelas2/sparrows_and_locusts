@@ -1,0 +1,222 @@
+
+======== Mega iteration 1/2 (no early stop — always improving) ========
+
+Pass 1: Latin Hypercube 150 samples
+New Best: 6419916.858858 (mse_hist_eh=2.57323 gap=-0.03842 pen=6419914.885)
+New Best: 97988.566696 (mse_hist_eh=0.95379 gap=-0.00034 pen=97987.591)
+New Best: 61772.569015 (mse_hist_eh=3.71466 gap=-0.00117 pen=61769.649)
+New Best: 45252.847496 (mse_hist_eh=1.02240 gap=-0.12005 pen=45252.012)
+New Best: 41000.569771 (mse_hist_eh=3.34285 gap=0.00013 pen=40997.907)
+Pass 1 done in 5.06s. Best loss so far: 41000.569771
+Pass 2: Differential Evolution
+New Best: 40310.297601 (mse_hist_eh=1.01176 gap=0.00006 pen=40309.281)
+New Best: 40279.344149 (mse_hist_eh=0.95032 gap=-0.00046 pen=40278.371)
+New Best: 39827.806308 (mse_hist_eh=12.90103 gap=-0.00142 pen=39816.533)
+New Best: 163.437137 (mse_hist_eh=14.36355 gap=16.23421 pen=148.159)
+  checkpoint -> optimization_logs/checkpoints/best_0001_1775213566/
+differential_evolution step 1: f(x)= 163.43713699628782
+New Best: 0.222024 (mse_hist_eh=0.19095 gap=0.62510 pen=0.000)
+  checkpoint -> optimization_logs/checkpoints/best_0002_1775213573/
+differential_evolution step 2: f(x)= 0.22202401297749913
+differential_evolution step 3: f(x)= 0.22202401297749913
+differential_evolution step 4: f(x)= 0.22202401297749913
+differential_evolution step 5: f(x)= 0.22202401297749913
+differential_evolution step 6: f(x)= 0.22202401297749913
+differential_evolution step 7: f(x)= 0.22202401297749913
+differential_evolution step 8: f(x)= 0.22202401297749913
+differential_evolution step 9: f(x)= 0.22202401297749913
+differential_evolution step 10: f(x)= 0.22202401297749913
+differential_evolution step 11: f(x)= 0.22202401297749913
+differential_evolution step 12: f(x)= 0.22202401297749913
+differential_evolution step 13: f(x)= 0.22202401297749913
+differential_evolution step 14: f(x)= 0.22202401297749913
+differential_evolution step 15: f(x)= 0.22202401297749913
+differential_evolution step 16: f(x)= 0.22202401297749913
+differential_evolution step 17: f(x)= 0.22202401297749913
+differential_evolution step 18: f(x)= 0.22202401297749913
+differential_evolution step 19: f(x)= 0.22202401297749913
+differential_evolution step 20: f(x)= 0.22202401297749913
+differential_evolution step 21: f(x)= 0.22202401297749913
+differential_evolution step 22: f(x)= 0.22202401297749913
+differential_evolution step 23: f(x)= 0.22202401297749913
+differential_evolution step 1: f(x)= 206.37396493521723
+differential_evolution step 2: f(x)= 206.37396493521723
+differential_evolution step 3: f(x)= 206.37396493521723
+differential_evolution step 4: f(x)= 206.37396493521723
+differential_evolution step 5: f(x)= 206.37396493521723
+differential_evolution step 6: f(x)= 189.7316902464066
+differential_evolution step 7: f(x)= 121.62862987152691
+differential_evolution step 8: f(x)= 121.62862987152691
+differential_evolution step 9: f(x)= 2.5209222825011155
+differential_evolution step 10: f(x)= 2.5209222825011155
+differential_evolution step 11: f(x)= 2.5209222825011155
+differential_evolution step 12: f(x)= 2.5209222825011155
+differential_evolution step 13: f(x)= 0.6979970153168382
+differential_evolution step 14: f(x)= 0.6979970153168382
+differential_evolution step 15: f(x)= 0.6979970153168382
+differential_evolution step 16: f(x)= 0.6979970153168382
+differential_evolution step 17: f(x)= 0.6979970153168382
+differential_evolution step 18: f(x)= 0.6979970153168382
+differential_evolution step 19: f(x)= 0.6979970153168382
+differential_evolution step 20: f(x)= 0.6979970153168382
+differential_evolution step 21: f(x)= 0.6979970153168382
+differential_evolution step 22: f(x)= 0.6979970153168382
+differential_evolution step 23: f(x)= 0.6979970153168382
+differential_evolution step 24: f(x)= 0.6979970153168382
+differential_evolution step 25: f(x)= 0.6979970153168382
+differential_evolution step 26: f(x)= 0.6979970153168382
+differential_evolution step 27: f(x)= 0.6979970153168382
+differential_evolution step 1: f(x)= 0.4192058595441715
+differential_evolution step 2: f(x)= 0.4192058595441715
+differential_evolution step 3: f(x)= 0.4192058595441715
+differential_evolution step 4: f(x)= 0.4192058595441715
+differential_evolution step 5: f(x)= 0.4192058595441715
+New Best: 0.131307 (mse_hist_eh=0.14754 gap=0.10452 pen=0.000)
+  checkpoint -> optimization_logs/checkpoints/best_0003_1775213709/
+differential_evolution step 6: f(x)= 0.1313074763004316
+differential_evolution step 7: f(x)= 0.1313074763004316
+differential_evolution step 8: f(x)= 0.1313074763004316
+differential_evolution step 9: f(x)= 0.1313074763004316
+differential_evolution step 10: f(x)= 0.1313074763004316
+differential_evolution step 11: f(x)= 0.1313074763004316
+differential_evolution step 12: f(x)= 0.1313074763004316
+differential_evolution step 13: f(x)= 0.1313074763004316
+differential_evolution step 14: f(x)= 0.1313074763004316
+differential_evolution step 15: f(x)= 0.1313074763004316
+differential_evolution step 16: f(x)= 0.1313074763004316
+differential_evolution step 17: f(x)= 0.1313074763004316
+differential_evolution step 18: f(x)= 0.1313074763004316
+differential_evolution step 19: f(x)= 0.1313074763004316
+differential_evolution step 20: f(x)= 0.1313074763004316
+differential_evolution step 21: f(x)= 0.1313074763004316
+differential_evolution step 22: f(x)= 0.1313074763004316
+differential_evolution step 23: f(x)= 0.1313074763004316
+differential_evolution step 24: f(x)= 0.1313074763004316
+differential_evolution step 25: f(x)= 0.1313074763004316
+differential_evolution step 26: f(x)= 0.1313074763004316
+differential_evolution step 27: f(x)= 0.1313074763004316
+differential_evolution step 28: f(x)= 0.1313074763004316
+differential_evolution step 29: f(x)= 0.1313074763004316
+differential_evolution step 30: f(x)= 0.1313074763004316
+differential_evolution step 31: f(x)= 0.1313074763004316
+differential_evolution step 32: f(x)= 0.1313074763004316
+differential_evolution step 33: f(x)= 0.1313074763004316
+differential_evolution step 34: f(x)= 0.1313074763004316
+differential_evolution step 35: f(x)= 0.1313074763004316
+differential_evolution step 36: f(x)= 0.1313074763004316
+differential_evolution step 37: f(x)= 0.1313074763004316
+differential_evolution step 38: f(x)= 0.1313074763004316
+differential_evolution step 39: f(x)= 0.1313074763004316
+differential_evolution step 40: f(x)= 0.1313074763004316
+differential_evolution step 41: f(x)= 0.1313074763004316
+differential_evolution step 42: f(x)= 0.1313074763004316
+Pass 2 done in 225.23s. DE reports fun=0.131307
+Global best check: loss=0.131307 g_std=0.06459 R2_eh=0.4373 R2_0=0.0387 crash_ratio=11.672 narr_decl=0.9428 narr_rec=14.4430 ok=False cert_score=0.81493
+[good snapshot] -> optimization_logs/checkpoints/good_mega0001_r2_0.4373_loss_0.1313_1775213786/
+[pivot] mega=1 expanded/jittered working_bounds
+
+======== Mega iteration 2/2 (no early stop — always improving) ========
+
+Pass 1: Latin Hypercube 150 samples
+Pass 1 done in 12.62s. Best loss so far: 0.131307
+Pass 2: Differential Evolution
+differential_evolution step 1: f(x)= 126.50060662612438
+differential_evolution step 2: f(x)= 112.22389858714023
+differential_evolution step 3: f(x)= 112.22389858714023
+differential_evolution step 4: f(x)= 107.74822118114996
+differential_evolution step 5: f(x)= 107.74822118114996
+differential_evolution step 6: f(x)= 107.74822118114996
+differential_evolution step 7: f(x)= 105.34098733102095
+differential_evolution step 8: f(x)= 88.33083446729675
+differential_evolution step 9: f(x)= 88.33083446729675
+differential_evolution step 10: f(x)= 59.88264126347968
+differential_evolution step 11: f(x)= 0.41967275771662516
+differential_evolution step 12: f(x)= 0.41967275771662516
+differential_evolution step 13: f(x)= 0.41967275771662516
+differential_evolution step 14: f(x)= 0.376701405269339
+differential_evolution step 15: f(x)= 0.376701405269339
+differential_evolution step 16: f(x)= 0.3133282704962043
+differential_evolution step 17: f(x)= 0.3133282704962043
+differential_evolution step 18: f(x)= 0.3133282704962043
+differential_evolution step 19: f(x)= 0.3133282704962043
+differential_evolution step 20: f(x)= 0.3133282704962043
+differential_evolution step 21: f(x)= 0.3133282704962043
+differential_evolution step 22: f(x)= 0.3133282704962043
+differential_evolution step 23: f(x)= 0.3133282704962043
+differential_evolution step 1: f(x)= 41490.44429179511
+differential_evolution step 2: f(x)= 41321.1990236086
+differential_evolution step 3: f(x)= 41321.1990236086
+differential_evolution step 4: f(x)= 72.01480843159767
+differential_evolution step 5: f(x)= 72.01480843159767
+differential_evolution step 6: f(x)= 72.01480843159767
+differential_evolution step 7: f(x)= 72.01480843159767
+differential_evolution step 8: f(x)= 72.01480843159767
+differential_evolution step 9: f(x)= 72.01480843159767
+differential_evolution step 10: f(x)= 72.01480843159767
+differential_evolution step 11: f(x)= 2.553957443110079
+differential_evolution step 12: f(x)= 1.2928952372518494
+differential_evolution step 13: f(x)= 1.2928952372518494
+differential_evolution step 14: f(x)= 1.2928952372518494
+differential_evolution step 15: f(x)= 1.2928952372518494
+differential_evolution step 16: f(x)= 1.2928952372518494
+differential_evolution step 17: f(x)= 1.2928952372518494
+differential_evolution step 18: f(x)= 1.2928952372518494
+differential_evolution step 19: f(x)= 1.2928952372518494
+differential_evolution step 20: f(x)= 1.1283793735318217
+differential_evolution step 21: f(x)= 1.1283793735318217
+differential_evolution step 22: f(x)= 1.1283793735318217
+differential_evolution step 23: f(x)= 1.1283793735318217
+differential_evolution step 24: f(x)= 1.1283793735318217
+differential_evolution step 25: f(x)= 1.1283793735318217
+differential_evolution step 26: f(x)= 1.1283793735318217
+differential_evolution step 27: f(x)= 0.8531888978202377
+differential_evolution step 1: f(x)= 36519.32957706852
+differential_evolution step 2: f(x)= 18138.346908910768
+differential_evolution step 3: f(x)= 18138.346908910768
+differential_evolution step 4: f(x)= 3384.560735536121
+differential_evolution step 5: f(x)= 3384.560735536121
+differential_evolution step 6: f(x)= 1131.3178320295922
+differential_evolution step 7: f(x)= 81.25939107015807
+differential_evolution step 8: f(x)= 81.25939107015807
+differential_evolution step 9: f(x)= 81.25939107015807
+differential_evolution step 10: f(x)= 81.25939107015807
+differential_evolution step 11: f(x)= 81.25939107015807
+differential_evolution step 12: f(x)= 81.25939107015807
+differential_evolution step 13: f(x)= 81.25939107015807
+differential_evolution step 14: f(x)= 81.25939107015807
+differential_evolution step 15: f(x)= 81.25939107015807
+differential_evolution step 16: f(x)= 81.25939107015807
+differential_evolution step 17: f(x)= 81.25939107015807
+differential_evolution step 18: f(x)= 81.25939107015807
+differential_evolution step 19: f(x)= 76.78043837741227
+differential_evolution step 20: f(x)= 1.1586896572918022
+differential_evolution step 21: f(x)= 1.1586896572918022
+differential_evolution step 22: f(x)= 1.1586896572918022
+differential_evolution step 23: f(x)= 1.1586896572918022
+differential_evolution step 24: f(x)= 1.1586896572918022
+differential_evolution step 25: f(x)= 1.1586896572918022
+differential_evolution step 26: f(x)= 1.1586896572918022
+differential_evolution step 27: f(x)= 1.1586896572918022
+differential_evolution step 28: f(x)= 1.1586896572918022
+differential_evolution step 29: f(x)= 1.1586896572918022
+differential_evolution step 30: f(x)= 1.1586896572918022
+differential_evolution step 31: f(x)= 1.1586896572918022
+differential_evolution step 32: f(x)= 1.1586896572918022
+differential_evolution step 33: f(x)= 1.1586896572918022
+differential_evolution step 34: f(x)= 1.1586896572918022
+differential_evolution step 35: f(x)= 1.1586896572918022
+differential_evolution step 36: f(x)= 1.1586896572918022
+differential_evolution step 37: f(x)= 1.1586896572918022
+differential_evolution step 38: f(x)= 1.1586896572918022
+differential_evolution step 39: f(x)= 1.1586896572918022
+differential_evolution step 40: f(x)= 1.1586896572918022
+differential_evolution step 41: f(x)= 1.1586896572918022
+differential_evolution step 42: f(x)= 0.5779061989510562
+Pass 2 done in 252.08s. DE reports fun=0.313328
+Global best check: loss=0.131307 g_std=0.06459 R2_eh=0.4373 R2_0=0.0387 crash_ratio=11.672 narr_decl=0.9428 narr_rec=14.4430 ok=False cert_score=0.81493
+[good snapshot] -> optimization_logs/checkpoints/good_mega0002_r2_0.4373_loss_0.1313_1775214051/
+[pivot] mega=2 expanded/jittered working_bounds
+
+Best raw array (last DE):
+[1.84289448e+00, 5.73413382e-02, 1.18479084e+00, 5.57181919e-03, 1.61300282e-01, 1.46140057e-03, 6.23745302e-02, 3.63259985e+00, 1.48776988e+02, 4.15758613e-01, 1.93972758e+00, 4.04150579e-01, 1.66177545e+01, 6.57530716e+01, 4.16533840e-01, 1.05323373e+00]
+Baseline G std=0.06459 | R2 hist (Eh)=0.4373 | R2 hist (Eh=0)=0.0387

@@ -1,0 +1,7 @@
+Single bundle: good #1 with original (non-fixed) death rates a3, b4 from checkpoint.json,
+typed equations with numbers (EQUATIONS_WITH_VALUES.md), and Bayesian MCMC (mcmc_uq_*).
+
+/home/eochis/code/research/GOOD1_nonfixed_death_rates_Bayesian_bundle/
+
+Original Win folder (same checkpoint + plots) still at:
+/home/eochis/code/research/Wins (assigned)/good #1/

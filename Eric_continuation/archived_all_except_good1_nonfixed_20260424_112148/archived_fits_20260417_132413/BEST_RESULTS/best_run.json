@@ -1,0 +1,27 @@
+{
+  "loss": 0.07853724114863436,
+  "source_checkpoint": "/home/eochis/code/research/optimization_logs/checkpoints/best_0017_1775218978/checkpoint.json",
+  "mse_hist_eh": 0.07272419372767819,
+  "note": "Exported from lowest-loss checkpoint scan (not necessarily certified).",
+  "params_lin": [
+    3.443061790553446,
+    0.03280592190629625,
+    1.3482685651585986,
+    0.004864637673940089,
+    0.19686969489586142,
+    0.0011993456872041353,
+    0.030399396784654156,
+    1.614074279323853,
+    136.53112852871655,
+    0.4132325816799705,
+    1.2859845546429869,
+    0.7259171506709997,
+    14.013989594430834,
+    29.140851092090333,
+    0.4244661476981984,
+    1.5602259282705775
+  ],
+  "export_tag": "checkpoint_loss_0.078537",
+  "export_dir": "/home/eochis/code/research/BEST_RESULTS",
+  "exported_at": "2026-04-17 12:48:01"
+}

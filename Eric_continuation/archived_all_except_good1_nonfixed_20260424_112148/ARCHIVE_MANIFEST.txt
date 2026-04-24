@@ -1,0 +1,46 @@
+Archived (kept: venv, famine_model.py, requirements.txt, Wins/good #1 originals, GOOD1_nonfixed_death_rates_Bayesian_bundle).
+2026-04-24T11:21:48-04:00
+---
+moved BEST_FIT_good1_a3_one_third_b4_one
+moved BEST_RESULTS
+moved optimization_logs_current
+moved archive_snapshot_2026-04-03
+moved research_g07
+moved archived_fits_20260417_132413
+moved archived_optimization_logs_20260417_130130
+moved Wins/good #2
+moved Wins/EQUATIONS_SUBSTITUTED.txt
+moved Wins/REPORT.txt
+moved Wins/generate_wins_report.py
+removed fixed-death-rate subfolder + script from Wins/good #1
+moved refit_good1_fixed_death_rates.py
+moved plot_best.py
+moved test_opt.py
+moved run_opt.sh
+moved SPEC.md
+moved SUCCESS_REPORT.md
+moved LLM_Bayesian_UQ_ODE_Protocol.md
+moved __pycache__
+total 100
+drwxr-xr-x 11 eochis eochis 4096 Apr 24 11:21 .
+drwxr-xr-x  7 eochis eochis 4096 Apr 24 11:21 ..
+drwxr-xr-x  5 eochis eochis 4096 Apr 17 13:24 archived_fits_20260417_132413
+drwxr-xr-x  4 eochis eochis 4096 Apr 17 13:01 archived_optimization_logs_20260417_130130
+-rw-r--r--  1 eochis eochis  748 Apr 24 11:21 ARCHIVE_MANIFEST.txt
+drwxr-xr-x  7 eochis eochis 4096 Apr  3 13:33 archive_snapshot_2026-04-03
+drwxr-xr-x  2 eochis eochis 4096 Apr 17 13:27 BEST_FIT_good1_a3_one_third_b4_one
+drwxr-xr-x  2 eochis eochis 4096 Apr 17 13:24 BEST_RESULTS
+-rw-r--r--  1 eochis eochis 3249 Apr 24 11:16 EQUATIONS_SUBSTITUTED.txt
+-rw-r--r--  1 eochis eochis 5664 Apr 24 11:16 generate_wins_report.py
+drwxr-xr-x  2 eochis eochis 4096 Apr  3 10:11 good #2
+-rw-r--r--  1 eochis eochis 3979 Apr 17 12:41 LLM_Bayesian_UQ_ODE_Protocol.md
+drwxr-xr-x  3 eochis eochis 4096 Apr 18 01:13 optimization_logs_current
+-rw-r--r--  1 eochis eochis 3211 Apr  3 04:33 plot_best.py
+drwxr-xr-x  2 eochis eochis 4096 Apr 24 11:21 __pycache__
+-rw-r--r--  1 eochis eochis 6773 Apr 24 11:16 refit_good1_fixed_death_rates.py
+-rw-r--r--  1 eochis eochis 2059 Apr 24 11:16 REPORT.txt
+drwxr-xr-x  4 eochis eochis 4096 Apr  3 13:33 research_g07
+-rw-r--r--  1 eochis eochis  318 Apr  3 06:31 run_opt.sh
+-rw-r--r--  1 eochis eochis 3894 Apr  3 06:30 SPEC.md
+-rw-r--r--  1 eochis eochis  609 Apr  3 04:13 SUCCESS_REPORT.md
+-rw-r--r--  1 eochis eochis 7263 Apr  3 04:42 test_opt.py

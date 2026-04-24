@@ -1,0 +1,9 @@
+Archived fit artifacts (optimization logs + prior BEST_RESULTS).
+2026-04-17T13:24:48-04:00
+total 24
+drwxr-xr-x  5 eochis eochis 4096 Apr 17 13:24 .
+drwxr-xr-x 13 eochis eochis 4096 Apr 17 13:24 ..
+-rw-r--r--  1 eochis eochis   91 Apr 17 13:24 ARCHIVE_MANIFEST.txt
+drwxr-xr-x  2 eochis eochis 4096 Apr 17 12:48 BEST_RESULTS
+drwxr-xr-x  3 eochis eochis 4096 Apr 17 13:14 optimization_logs_current
+drwxr-xr-x  3 eochis eochis 4096 Apr 17 13:13 optimization_logs_good1_refit_fixed_death

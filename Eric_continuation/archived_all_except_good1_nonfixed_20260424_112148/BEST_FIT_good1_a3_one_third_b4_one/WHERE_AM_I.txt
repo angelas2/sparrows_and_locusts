@@ -1,0 +1,4 @@
+Canonical best-fit bundle (params + plots + equations + Bayesian UQ).
+/home/eochis/code/research/BEST_FIT_good1_a3_one_third_b4_one
+
+Also in this folder: EQUATIONS_WITH_VALUES.md, bayesian_uq_mcmc.py, mcmc_uq_*.png/.npy/.json

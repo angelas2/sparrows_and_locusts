@@ -1,0 +1,55 @@
+{
+  "title": "Best fit (user-selected): good #1 with fixed sparrow death a3=1/3 and locust death b4=1",
+  "params_lin_order": "lam,a2,b1,b3,b5,c1,c2,r_g,K_l,a3,b2,b4,S0,L0,G0,Eh",
+  "fixed_a3": 0.3333333333333333,
+  "fixed_b4": 1.0,
+  "note": "ODE uses famine_model.FIXED_A3/FIXED_B4; params_lin slots 9 and 11 match these values.",
+  "loss": 48524.06465083951,
+  "loss_note": "Composite training objective from famine_model.evaluate_params (MSE + penalties). Large value is expected here: this hand-picked visual fit is not tuned to the certification penalty stack.",
+  "g_std": 0.05432648709337352,
+  "r2_eh": 0.47477327297939464,
+  "r2_0": -0.17383200326569925,
+  "source_checkpoint": "/home/eochis/code/research/Wins (assigned)/good #1/checkpoint.json",
+  "params_lin_original_a3_b4": [
+    0.3901147113671109,
+    0.8009464632919426
+  ],
+  "params_lin_set_to": {
+    "a3_index_9": 0.3333333333333333,
+    "b4_index_11": 1.0
+  },
+  "params_lin_full": [
+    3.219178787856233,
+    0.07075323118716503,
+    1.636114046899971,
+    0.011227972449290212,
+    0.1791096293280125,
+    0.0009729511987533224,
+    0.031008483466192706,
+    1.8301843871298769,
+    172.24744979281866,
+    0.3333333333333333,
+    1.1094748633284708,
+    1.0,
+    13.175227866732552,
+    28.247879750055088,
+    0.4240653351593722,
+    1.7572075170162595
+  ],
+  "params_log_14": [
+    0.5077450973514017,
+    -1.150253721814805,
+    0.21381357330414863,
+    -1.949698661689176,
+    -0.7468810648957901,
+    -3.0119089425103325,
+    -1.508519473310223,
+    0.26249484616706625,
+    2.2361528006864537,
+    0.04511746714359791,
+    1.119758135111057,
+    1.450985855787033,
+    -0.3725672271024276,
+    0.2448230524305803
+  ]
+}

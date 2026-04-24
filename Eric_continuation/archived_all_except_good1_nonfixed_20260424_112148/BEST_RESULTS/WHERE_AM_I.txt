@@ -1,0 +1,5 @@
+Previous BEST_RESULTS and optimization log trees were moved to:
+/home/eochis/code/research/archived_fits_20260417_132413/
+
+Current canonical best fit (params + plots):
+/home/eochis/code/research/BEST_FIT_good1_a3_one_third_b4_one/

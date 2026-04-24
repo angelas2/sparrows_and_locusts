@@ -1,0 +1,17 @@
+{
+  "nwalkers": 32,
+  "nsteps": 55,
+  "nburn": 18,
+  "ndim": 15,
+  "mean_acceptance": 0.21534090909090908,
+  "flat_chain_shape": [
+    1184,
+    15
+  ],
+  "output_files": [
+    "/home/eochis/code/research/BEST_FIT_good1_a3_one_third_b4_one/mcmc_uq_chain_flat.npy",
+    "/home/eochis/code/research/BEST_FIT_good1_a3_one_third_b4_one/mcmc_uq_traces.png",
+    "/home/eochis/code/research/BEST_FIT_good1_a3_one_third_b4_one/mcmc_uq_corner_subset.png",
+    "/home/eochis/code/research/BEST_FIT_good1_a3_one_third_b4_one/mcmc_uq_ppc_grain.png"
+  ]
+}
