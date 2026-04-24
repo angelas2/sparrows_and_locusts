@@ -840,6 +840,10 @@ def plot_results(best_params, plot_name="plot", save_plot_n=True, output_root=No
         system, t_span_12, [S0, L0, G0], t_eval=t_eval_12,
         args=(Eh, *sys_params), method="LSODA", atol=ATOL, rtol=RTOL,
     )
+    sol_12_0 = solve_ivp(
+        system, t_span_12, [S0, L0, G0], t_eval=t_eval_12,
+        args=(0.0, *sys_params), method="LSODA", atol=ATOL, rtol=RTOL,
+    )
     historical_scaled = positive_rice_production * scaling_factor
 
     plt.figure(figsize=(10, 5))
@@ -856,10 +860,32 @@ def plot_results(best_params, plot_name="plot", save_plot_n=True, output_root=No
         plt.savefig(os.path.join(root, "plot_N.png"))
     plt.close()
 
-    sol_12_0 = solve_ivp(
-        system, t_span_12, [S0, L0, G0], t_eval=t_eval_12,
-        args=(0.0, *sys_params), method="LSODA", atol=ATOL, rtol=RTOL,
-    )
+    # Sparrows only: same axes, no hunting vs hunting (no grain, no locusts on this figure)
+    plt.figure(figsize=(10, 5))
+    plt.plot(sol_12_0.t, sol_12_0.y[0], label="No hunting (Eh = 0)", linewidth=2, color="tab:green")
+    plt.plot(sol_12.t, sol_12.y[0], label="With hunting", linewidth=2, color="tab:blue", alpha=0.9)
+    plt.axvspan(4.0, 6.5, color="gray", alpha=0.2, zorder=0)
+    plt.title("Sparrows only — same axes: with vs without hunting (12 years)")
+    plt.xlabel("Time (years)")
+    plt.ylabel("Sparrow population S")
+    plt.legend(loc="best", framealpha=0.95)
+    plt.grid(True)
+    plt.savefig(os.path.join(root, f"{plot_name}_S_populations_12yr.png"))
+    plt.close()
+
+    # Locusts only: same axes, no hunting vs hunting (no grain, no sparrows on this figure)
+    plt.figure(figsize=(10, 5))
+    plt.plot(sol_12_0.t, sol_12_0.y[1], label="No hunting (Eh = 0)", linewidth=2, color="tab:green")
+    plt.plot(sol_12.t, sol_12.y[1], label="With hunting", linewidth=2, color="tab:orange", alpha=0.9)
+    plt.axvspan(4.0, 6.5, color="gray", alpha=0.2, zorder=0)
+    plt.title("Locusts only — same axes: with vs without hunting (12 years)")
+    plt.xlabel("Time (years)")
+    plt.ylabel("Locust population L")
+    plt.legend(loc="best", framealpha=0.95)
+    plt.grid(True)
+    plt.savefig(os.path.join(root, f"{plot_name}_L_populations_12yr.png"))
+    plt.close()
+
     plt.figure(figsize=(10, 5))
     plt.plot(sol_12_0.t, sol_12_0.y[2], label="Simulated Grain (Eh = 0)", linewidth=2, color="tab:green")
     plt.plot(sol_12.t, sol_12.y[2], label="Simulated Grain (with Eh)", linewidth=2, alpha=0.7)
