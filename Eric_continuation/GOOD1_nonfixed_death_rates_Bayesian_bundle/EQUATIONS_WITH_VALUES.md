@@ -81,4 +81,4 @@ using `famine_model.pre_shock_data[0]` and `famine_model.positive_rice_productio
 
 ## Bayesian UQ
 
-See **`bayesian_uq_mcmc.py`**: \(16\times \log_{10}\) parameters (including **\(a_3,b_4\)**) + \(\log_{10}\sigma\); Gaussian priors centered on checkpoint `params_log`; Gaussian likelihood on normalized annual grain; `emcee` ensemble MCMC; trace, corner subset, PPC plots (`mcmc_uq_*`).
+See **`bayesian_uq_mcmc.py`**: \(16\times \log_{10}\) parameters (including **\(a_3,b_4\)**) + \(\log_{10}\sigma\); Gaussian priors centered on checkpoint `params_log`; Gaussian likelihood on normalized annual grain; `emcee` ensemble MCMC; **`mcmc_uq_traces.png`** = trace for **all** continuous unknowns; corner subset on \(a_3,b_4,\sigma\); PPC grain (`mcmc_uq_*`).

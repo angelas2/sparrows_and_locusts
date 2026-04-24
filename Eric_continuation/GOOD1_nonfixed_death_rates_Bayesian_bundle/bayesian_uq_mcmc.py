@@ -228,15 +228,27 @@ def main() -> int:
         r"$\log\sigma$",
     ]
 
-    fig, axes = plt.subplots(7, 1, figsize=(9, 8), sharex=True)
-    trace_idx = [9, 10, 11, 12, 13, 14, 16]
-    for ax, idx in zip(axes, trace_idx):
-        ax.plot(chain[:, :, idx], color="k", alpha=0.22, lw=0.55)
-        ax.set_ylabel(names[idx], fontsize=8)
-    axes[-1].set_xlabel("step")
-    fig.suptitle(r"MCMC traces ($a_3$, $b_4$, ICs, $E_h$, $\sigma$)")
-    fig.tight_layout()
-    fig.savefig(OUT_PREFIX + "_traces.png", dpi=120)
+    # Trace plots: all ndim continuous unknowns (16 log10 ODE/IC params + log10 sigma)
+    nrows, ncols = 6, 3
+    fig, axes = plt.subplots(nrows, ncols, figsize=(12, 22), sharex=True)
+    axes_flat = axes.flatten()
+    for idx in range(ndim):
+        ax = axes_flat[idx]
+        ax.plot(chain[:, :, idx], color="k", alpha=0.18, lw=0.48)
+        ax.set_ylabel(names[idx], fontsize=7)
+        ax.tick_params(axis="both", labelsize=6)
+        ax.grid(True, alpha=0.22)
+    for j in range(ndim, len(axes_flat)):
+        axes_flat[j].set_visible(False)
+    for idx in (12, 13, 14, 15, 16):
+        axes_flat[idx].set_xlabel("MCMC step", fontsize=7)
+    fig.suptitle(
+        r"MCMC traces — all unknowns ($\log_{10}$ of $\lambda,a_2,b_1,\ldots,E_h$ + $\log_{10}\sigma$)",
+        fontsize=11,
+        y=0.998,
+    )
+    fig.subplots_adjust(left=0.12, right=0.98, top=0.97, bottom=0.05, hspace=0.38, wspace=0.28)
+    fig.savefig(OUT_PREFIX + "_traces.png", dpi=130)
     plt.close(fig)
 
     try:

@@ -4,7 +4,7 @@
   "nsteps": 48,
   "nburn": 14,
   "ndim": 17,
-  "mean_acceptance": 0.18640350877192985,
+  "mean_acceptance": 0.12335526315789476,
   "flat_chain_shape": [
     1292,
     17
