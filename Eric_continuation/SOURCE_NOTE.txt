@@ -1,0 +1,2 @@
+This directory is the working copy; the GitHub mirror lives at
+angelas2/sparrows_and_locusts branch Eric's-continuation / Eric_continuation/
