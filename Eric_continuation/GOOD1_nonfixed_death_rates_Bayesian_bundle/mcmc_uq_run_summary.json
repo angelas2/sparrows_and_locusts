@@ -1,12 +1,12 @@
 {
   "checkpoint": "/home/eochis/code/research/GOOD1_nonfixed_death_rates_Bayesian_bundle/checkpoint.json",
-  "nwalkers": 38,
-  "nsteps": 48,
-  "nburn": 14,
+  "nwalkers": 40,
+  "nsteps": 220,
+  "nburn": 70,
   "ndim": 17,
-  "mean_acceptance": 0.12335526315789476,
+  "mean_acceptance": 0.20727272727272728,
   "flat_chain_shape": [
-    1292,
+    6000,
     17
   ],
   "note": "a3, b4 vary in ODE; not tied to famine_model.FIXED_A3/FIXED_B4."

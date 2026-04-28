@@ -35,9 +35,9 @@ warnings.filterwarnings("ignore")
 
 CK = os.path.join(_BUNDLE, "checkpoint.json")
 OUT_PREFIX = os.path.join(_BUNDLE, "mcmc_uq")
-NWALKERS = 38  # >= 2 * ndim, ndim=17
-NSTEPS = 48
-NBURN = 14
+NWALKERS = 40  # >= 2 * ndim, ndim=17
+NSTEPS = 220
+NBURN = 70
 T_EVAL_MCMC = np.linspace(0.0, 12.0, 12 * 8 + 1)
 PRIOR_SIG_LOG = 0.13
 PRIOR_CENTER_LOGSIG = -1.55
